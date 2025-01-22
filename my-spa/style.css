@@ -1,0 +1,44 @@
+html, body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  
+  header {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 10px;
+  }
+  
+  header ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  header li {
+    padding: 0.4rem 1rem;
+    cursor: pointer;
+    color: white;
+  }
+  
+  header li:hover {
+    border-bottom: 2px solid white;
+  }
+  
+  main {
+    padding: 2rem;
+  }
+  
+  @media (max-width: 600px) {
+    header {
+      flex-direction: column;
+    }
+  
+    header ul {
+      flex-direction: column;
+    }
+  }
+  
